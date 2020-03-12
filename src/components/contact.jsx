@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from "emailjs-com";
 
 export default class Contact extends Component {
   constructor(props) {
@@ -20,13 +21,27 @@ export default class Contact extends Component {
 
     const { name, email, subject, message } = this.state;
 
-    window.Email.send({
-      SecureToken: "98b05bae-3a11-47c3-ab52-5a98ff4b38a6",
-      To: "danielmimoun98@gmail.com",
-      From: "danielmimoun98@gmail.com",
-      Subject: subject,
-      Body: name + "\n" + email + "\n" + message
-    }).then(mess => alert(mess));
+    let template_params = {
+      subject: subject,
+      from_name: name,
+      from_email: email,
+      message: message
+    };
+
+    let service_id = "gmail";
+    let template_id = "template_2HUVgYyI";
+    let user_id = "user_sTfKBqVJEdqFcb6znKwcg";
+    emailjs.send(service_id, template_id, template_params, user_id).then(
+      result => alert("SUCCESS!", result.status, result.text),
+      err => alert("ERROR!", err)
+    );
+
+    this.setState({
+      name: "",
+      email: "",
+      subject: "",
+      message: ""
+    });
   };
 
   render() {
@@ -95,7 +110,9 @@ export default class Contact extends Component {
                           type="text"
                           className="form-control"
                           placeholder="Name"
+                          value={this.state.name}
                           onChange={this.onChange}
+                          required
                         />
                       </div>
                       <div className="form-group">
@@ -104,7 +121,9 @@ export default class Contact extends Component {
                           type="email"
                           className="form-control"
                           placeholder="Email"
+                          value={this.state.email}
                           onChange={this.onChange}
+                          required
                         />
                       </div>
                       <div className="form-group">
@@ -113,7 +132,9 @@ export default class Contact extends Component {
                           type="text"
                           className="form-control"
                           placeholder="Subject"
+                          value={this.state.subject}
                           onChange={this.onChange}
+                          required
                         />
                       </div>
                       <div className="form-group">
@@ -124,7 +145,9 @@ export default class Contact extends Component {
                           rows="7"
                           className="form-control"
                           placeholder="Message"
+                          value={this.state.message}
                           onChange={this.onChange}
+                          required
                         ></textarea>
                       </div>
                       <div className="form-group">
