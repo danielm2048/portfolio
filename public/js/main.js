@@ -105,11 +105,9 @@
       if ($("body").hasClass("offcanvas")) {
         $this.removeClass("active");
         $("body").removeClass("offcanvas");
-        $("body").removeClass("lock-position");
       } else {
         $this.addClass("active");
         $("body").addClass("offcanvas");
-        $("body").addClass("lock-position");
       }
     });
   };
@@ -122,7 +120,6 @@
         if ($("body").hasClass("offcanvas")) {
           $("body").removeClass("offcanvas");
           $(".js-colorlib-nav-toggle").removeClass("active");
-          $("body").removeClass("lock-position");
         }
       }
     });
@@ -131,7 +128,6 @@
       if ($("body").hasClass("offcanvas")) {
         $("body").removeClass("offcanvas");
         $(".js-colorlib-nav-toggle").removeClass("active");
-        $("body").removeClass("lock-position");
       }
     });
   };

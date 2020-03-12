@@ -121,6 +121,7 @@ figure figcaption {
     -o-transform: translateX(-300px);
     transform: translateX(-300px);
     padding-top: 4em;
+    height: 100%;
   }
 }
 #colorlib-aside .author-img {

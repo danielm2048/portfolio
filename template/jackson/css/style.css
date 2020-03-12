@@ -29,15 +29,6 @@ body {
   }
 }
 
-body.lock-position {
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
