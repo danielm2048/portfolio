@@ -79,7 +79,7 @@ export default class Timeline extends Component {
 												<p>
 													Expanded Computer Science and Software Engineering and
 													got the love for coding. I also expanded Math, English
-													and Chemistry. Average Bagrut scores: 110
+													and Chemistry.
 												</p>
 											</div>
 										</div>
