@@ -29,9 +29,11 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Quote-Machine">Work 01</a>
+												<a href="https://movie-affiliates.herokuapp.com">
+													Work 01
+												</a>
 											</h3>
-											<span>Quote Machine</span>
+											<span>Movie Store</span>
 										</div>
 									</div>
 								</div>
@@ -43,15 +45,15 @@ export default class Projects extends Component {
 								<div
 									className="project"
 									style={{
-										background: "linear-gradient(54deg, #3e84e4, #e13030)",
+										backgroundImage: "url(images/img-2.jpg)",
 									}}
 								>
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Markdown-Preview">Work 02</a>
+												<a href="/Quote-Machine">Work 02</a>
 											</h3>
-											<span>Markdown Preview</span>
+											<span>Quote Machine</span>
 										</div>
 									</div>
 								</div>
@@ -67,9 +69,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Drum-Machine">Work 03</a>
+												<a href="/Calculator">Work 03</a>
 											</h3>
-											<span>Drum Machine</span>
+											<span>Calculator</span>
 										</div>
 									</div>
 								</div>
@@ -85,9 +87,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Calculator">Work 04</a>
+												<a href="/Pomodoro-Clock">Work 04</a>
 											</h3>
-											<span>Calculator</span>
+											<span>Pomodoro Clock</span>
 										</div>
 									</div>
 								</div>
@@ -98,14 +100,16 @@ export default class Projects extends Component {
 							>
 								<div
 									className="project"
-									style={{ backgroundImage: "url(images/img-5.jpg)" }}
+									style={{
+										background: "linear-gradient(54deg, #3e84e4, #e13030)",
+									}}
 								>
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Pomodoro-Clock">Work 05</a>
+												<a href="/Markdown-Preview">Work 05</a>
 											</h3>
-											<span>Pomodoro Clock</span>
+											<span>Markdown Preview</span>
 										</div>
 									</div>
 								</div>
@@ -121,11 +125,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="https://movie-affiliates.herokuapp.com/">
-													Work 06
-												</a>
+												<a href="/Drum-Machine">Work 06</a>
 											</h3>
-											<span>Movie Store</span>
+											<span>Drum Machine</span>
 										</div>
 									</div>
 								</div>
