@@ -24,7 +24,7 @@ export default class Projects extends Component {
 							>
 								<div
 									className="project"
-									style={{ backgroundImage: "url(images/img-1.png)" }}
+									style={{ backgroundImage: "url(images/img-1.jpg)" }}
 								>
 									<div className="desc">
 										<div className="con">
