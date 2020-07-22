@@ -44,52 +44,36 @@ export default class Projects extends Component {
 							>
 								<div
 									className="project"
+									style={{ backgroundImage: "url(images/img-2.jpg)" }}
+								>
+									<div className="desc">
+										<div className="con">
+											<h3>
+												<a href="https://debate-stranger.herokuapp.com/">
+													Work 02
+												</a>
+											</h3>
+											<span>Debate Chat</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								className="col-md-4 animate-box"
+								data-animate-effect="fadeInRight"
+							>
+								<div
+									className="project"
 									style={{
-										backgroundImage: "url(images/img-2.jpg)",
+										backgroundImage: "url(images/img-3.jpg)",
 									}}
 								>
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Quote-Machine">Work 02</a>
+												<a href="/Quote-Machine">Work 03</a>
 											</h3>
 											<span>Quote Machine</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								className="col-md-4 animate-box"
-								data-animate-effect="fadeInTop"
-							>
-								<div
-									className="project"
-									style={{ backgroundImage: "url(images/img-3.jpg)" }}
-								>
-									<div className="desc">
-										<div className="con">
-											<h3>
-												<a href="/Calculator">Work 03</a>
-											</h3>
-											<span>Calculator</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								className="col-md-4 animate-box"
-								data-animate-effect="fadeInBottom"
-							>
-								<div
-									className="project"
-									style={{ backgroundImage: "url(images/img-4.jpg)" }}
-								>
-									<div className="desc">
-										<div className="con">
-											<h3>
-												<a href="/Pomodoro-Clock">Work 04</a>
-											</h3>
-											<span>Pomodoro Clock</span>
 										</div>
 									</div>
 								</div>
@@ -116,7 +100,25 @@ export default class Projects extends Component {
 							</div>
 							<div
 								className="col-md-4 animate-box"
-								data-animate-effect="fadeInRight"
+								data-animate-effect="fadeInTop"
+							>
+								<div
+									className="project"
+									style={{ backgroundImage: "url(images/img-4.jpg)" }}
+								>
+									<div className="desc">
+										<div className="con">
+											<h3>
+												<a href="/Calculator">Work 04</a>
+											</h3>
+											<span>Calculator</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								className="col-md-4 animate-box"
+								data-animate-effect="fadeInBottom"
 							>
 								<div
 									className="project"
@@ -125,9 +127,9 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3>
-												<a href="/Drum-Machine">Work 06</a>
+												<a href="/Pomodoro-Clock">Work 06</a>
 											</h3>
-											<span>Drum Machine</span>
+											<span>Pomodoro Clock</span>
 										</div>
 									</div>
 								</div>
