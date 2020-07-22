@@ -20,8 +20,8 @@ export default class About extends Component {
 												<strong>Hi i'm Daniel Mimoun</strong>
 												<br />
 												In high school I decided to learn Computer Science and
-												Software Engineering to see if I care for that side of
-												the computer spectrum, and truly it was a match.
+												Software Engineering to see if I care for that sort of
+												thing, and I found out I love it!
 												<br />
 												After graduation I got enrolled into the IDF as a
 												warrior at the 405 battalion(Tothanim - Artillery
