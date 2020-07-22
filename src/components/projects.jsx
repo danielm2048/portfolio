@@ -80,6 +80,24 @@ export default class Projects extends Component {
 							</div>
 							<div
 								className="col-md-4 animate-box"
+								data-animate-effect="fadeInTop"
+							>
+								<div
+									className="project"
+									style={{ backgroundImage: "url(images/img-4.jpg)" }}
+								>
+									<div className="desc">
+										<div className="con">
+											<h3>
+												<a href="/Calculator">Work 04</a>
+											</h3>
+											<span>Calculator</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								className="col-md-4 animate-box"
 								data-animate-effect="fadeInLeft"
 							>
 								<div
@@ -94,24 +112,6 @@ export default class Projects extends Component {
 												<a href="/Markdown-Preview">Work 05</a>
 											</h3>
 											<span>Markdown Preview</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								className="col-md-4 animate-box"
-								data-animate-effect="fadeInTop"
-							>
-								<div
-									className="project"
-									style={{ backgroundImage: "url(images/img-4.jpg)" }}
-								>
-									<div className="desc">
-										<div className="con">
-											<h3>
-												<a href="/Calculator">Work 04</a>
-											</h3>
-											<span>Calculator</span>
 										</div>
 									</div>
 								</div>
