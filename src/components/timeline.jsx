@@ -51,9 +51,9 @@ export default class Timeline extends Component {
 													IDF <span>2017-2019</span>
 												</h2>
 												<p>
-													Got enrolled as a warrior at 405 battalion in the
+													Got enrolled as a combat soldier at 405 battalion in the
 													Artillery Corps. Did a teleprocessing course and
-													returned to my original unit.Even though it wasn't in
+													returned to my original unit. Even though it wasn't in
 													my cards I still found a way to show my love for the
 													field, in time I became the Head of Computers and
 													Information Technology Manager at my unit. I also got
