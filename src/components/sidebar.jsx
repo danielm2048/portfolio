@@ -25,9 +25,6 @@ export default class Sidebar extends Component {
 								<a href="index.html">Daniel Mimoun</a>
 							</h1>
 							<span className="position">Full Stack Developer in Israel</span>
-							<span className="position">
-								Student of Life and Computers <i className="icon-headphones" />
-							</span>
 						</div>
 						<nav id="colorlib-main-menu" role="navigation" className="navbar">
 							<div id="navbar" className="collapse">
